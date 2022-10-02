@@ -1,7 +1,7 @@
 #include "user_io.h"
 
 int main() {
-    double initial_height { GetInitialHeight() };
+    double initial_height{ GetInitialHeight() };
 
     CalculateAndPrintHeight(initial_height, 0);
     CalculateAndPrintHeight(initial_height, 1);

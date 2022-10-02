@@ -4,12 +4,12 @@
 int main () {
     std::cout << "Enter an integer: ";
 
-    int firstInput{};
+    int firstInput{ };
     std::cin >> firstInput;
 
     std::cout << "Enter another integer: ";
 
-    int secondInput{};
+    int secondInput{ };
     std::cin >> secondInput;
 
     std::cout << firstInput << " + " << secondInput << " is " << 

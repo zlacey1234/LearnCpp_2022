@@ -4,7 +4,7 @@
 double ReadNumber() {
     std::cout << "Enter a double value: ";
 
-    double user_input { };
+    double user_input{ };
     std::cin >> user_input;
 
     return user_input;
@@ -13,7 +13,7 @@ double ReadNumber() {
 char GetArithmeticSymbol() {
     std::cout << "Enter one of the following: +, -, *, or /: ";
 
-    char arithmetic_symbol { };
+    char arithmetic_symbol{ };
     std::cin >> arithmetic_symbol;
     
     return arithmetic_symbol;
@@ -21,7 +21,7 @@ char GetArithmeticSymbol() {
 
 void PrintArithmeticExpression(
     double first_number, double second_number, char arithmetic_symbol) {
-        double arithmetic_solution { };
+        double arithmetic_solution{ };
 
         if (arithmetic_symbol == '+') {
             arithmetic_solution = first_number + second_number;

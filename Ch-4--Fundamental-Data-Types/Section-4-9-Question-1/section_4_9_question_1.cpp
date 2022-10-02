@@ -4,7 +4,7 @@
 
 
 int main() {
-    int input { ReadNumber() };
+    int input{ ReadNumber() };
 
     std::cout << "The number: " << input << '\n';
     
